@@ -1,0 +1,11 @@
+C:\Users\Dinesh\source\repos\PayrollManagement\Payroll.Models\bin\Debug\net10.0\Payroll.Models.deps.json
+C:\Users\Dinesh\source\repos\PayrollManagement\Payroll.Models\bin\Debug\net10.0\Payroll.Models.dll
+C:\Users\Dinesh\source\repos\PayrollManagement\Payroll.Models\bin\Debug\net10.0\Payroll.Models.pdb
+C:\Users\Dinesh\source\repos\PayrollManagement\Payroll.Models\obj\Debug\net10.0\Payroll.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dinesh\source\repos\PayrollManagement\Payroll.Models\obj\Debug\net10.0\Payroll.Models.AssemblyInfoInputs.cache
+C:\Users\Dinesh\source\repos\PayrollManagement\Payroll.Models\obj\Debug\net10.0\Payroll.Models.AssemblyInfo.cs
+C:\Users\Dinesh\source\repos\PayrollManagement\Payroll.Models\obj\Debug\net10.0\Payroll.Models.csproj.CoreCompileInputs.cache
+C:\Users\Dinesh\source\repos\PayrollManagement\Payroll.Models\obj\Debug\net10.0\Payroll.Models.dll
+C:\Users\Dinesh\source\repos\PayrollManagement\Payroll.Models\obj\Debug\net10.0\refint\Payroll.Models.dll
+C:\Users\Dinesh\source\repos\PayrollManagement\Payroll.Models\obj\Debug\net10.0\Payroll.Models.pdb
+C:\Users\Dinesh\source\repos\PayrollManagement\Payroll.Models\obj\Debug\net10.0\ref\Payroll.Models.dll

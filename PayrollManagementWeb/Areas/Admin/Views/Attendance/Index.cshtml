@@ -1,0 +1,56 @@
+﻿@model List<Attendance>
+<div class="container">
+    <div class="row mt-4 mb-3 ">
+        <div class="col-md-6"><h4 class="text-primary">Attendance List</h4></div>
+        
+        <hr class="mt-2" />
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <label class="form-label">Choose Date</label>
+            <input type="date" class="form-control" id="filterDate" onchange="filterAttendance()" />
+        </div>
+        
+        <div class="col-md-8 text-end">
+            @if (TempData["selectedDate"] != null)
+            {
+            <label class="form-label">Attendance Date</label>
+            <h4 class="text-primary">@TempData["selectedDate"]</h4>
+            }
+            else
+            {
+            <h4 class="text-primary">All</h4>
+                
+            }
+        </div>
+    </div>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Attendance Date</th>
+                <th scope="col">Present</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var obj in Model)
+            {
+                <tr>
+                    <td>@obj.Employee.Name @obj.Employee.EmployeeCode</td>
+                    <td >@obj.AttendanceDate</td>
+                    <td>@(obj.Present ? "Present" : "Absent")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function filterAttendance(){
+        console.log("Hello world")
+        let fDate  = document.getElementById("filterDate").value;
+        window.location.href="Attendance/Index?date=" + fDate.toString();
+        console.log(fDate)
+        
+    }
+</script>

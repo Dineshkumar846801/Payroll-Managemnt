@@ -1,0 +1,49 @@
+﻿@model List<Employee>
+<div class="container">
+    <div class="row mt-4 mb-3 ">
+        <div class="col-md-6"><h4 class="text-primary">Employee List</h4></div>
+        <div class="col-md-6 text-end">
+            <a class="btn btn-primary rounded-0" asp-controller="Employee" asp-action="Create"><i class="bi bi-plus-square me-2"></i>Add Employee</a>
+        </div>
+        <hr class="mt-2" />
+    </div>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Employee Code</th>
+                <th scope="col">Department</th>
+                <th scope="col">Designation</th>
+                <th scope="col">Date of Join</th>
+                <th scope="col">Salary</th>
+                <th scope="col" calspan="2">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var obj in Model)
+            {
+                <tr>
+                    <td>@obj.Name</td>
+                    <td>@obj.EmployeeCode</td>
+                    <td>@obj.Department</td>
+                    <td>@obj.Designation</td>
+                    <td>@obj.CreatedAt</td>
+                    <td>@obj.Salary</td>
+                    <td>
+                        <a asp-controller="Employee" asp-action="Edit" asp-route-id="@obj.EmployeeId"><i class="bi bi-pencil-square"></i></a>
+                    </td>
+                    <td>
+
+                        <a asp-controller="Employee" asp-action="Delete" asp-route-id="@obj.EmployeeId">
+                            <i class="bi bi-trash2-fill"></i>
+                        </a>
+                    </td>
+
+
+                </tr>
+            }
+
+
+        </tbody>
+    </table>
+</div>
