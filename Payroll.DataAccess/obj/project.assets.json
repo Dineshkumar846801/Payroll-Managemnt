@@ -1246,16 +1246,6 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Payroll.Models/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "compile": {
-          "bin/placeholder/Payroll.Models.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Payroll.Models.dll": {}
-        }
-      },
       "Payroll.Utility/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -3670,11 +3660,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Payroll.Models/1.0.0": {
-      "type": "project",
-      "path": "../Payroll.Models/Payroll.Models.csproj",
-      "msbuildProject": "../Payroll.Models/Payroll.Models.csproj"
-    },
     "Payroll.Utility/1.0.0": {
       "type": "project",
       "path": "../Payroll.Utility/Payroll.Utility.csproj",
@@ -3686,7 +3671,6 @@
       "Microsoft.EntityFrameworkCore >= 10.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 10.0.3",
-      "Payroll.Models >= 1.0.0",
       "Payroll.Utility >= 1.0.0"
     ]
   },
@@ -3723,9 +3707,6 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\Payroll.Models\\Payroll.Models.csproj": {
-              "projectPath": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\Payroll.Models\\Payroll.Models.csproj"
-            },
             "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\Payroll.Utility\\Payroll.Utility.csproj": {
               "projectPath": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\Payroll.Utility\\Payroll.Utility.csproj"
             }

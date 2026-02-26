@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D35E372-C3AF-D9F1-EA5B-6772C1A66DF9}|PayrollManagementWeb\\PayrollManagementWeb.csproj|c:\\users\\dinesh\\source\\repos\\payrollmanagement\\payrollmanagementweb\\areas\\admin\\views\\attendance\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D35E372-C3AF-D9F1-EA5B-6772C1A66DF9}|PayrollManagementWeb\\PayrollManagementWeb.csproj|solutionrelative:payrollmanagementweb\\areas\\admin\\views\\attendance\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{34AC38FD-5334-48DF-91FC-B81C15B36CEB}|Payroll.DataAccess\\Payroll.DataAccess.csproj|c:\\users\\dinesh\\source\\repos\\payrollmanagement\\payroll.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34AC38FD-5334-48DF-91FC-B81C15B36CEB}|Payroll.DataAccess\\Payroll.DataAccess.csproj|solutionrelative:payroll.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D35E372-C3AF-D9F1-EA5B-6772C1A66DF9}|PayrollManagementWeb\\PayrollManagementWeb.csproj|c:\\users\\dinesh\\source\\repos\\payrollmanagement\\payrollmanagementweb\\areas\\admin\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D35E372-C3AF-D9F1-EA5B-6772C1A66DF9}|PayrollManagementWeb\\PayrollManagementWeb.csproj|solutionrelative:payrollmanagementweb\\areas\\admin\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D35E372-C3AF-D9F1-EA5B-6772C1A66DF9}|PayrollManagementWeb\\PayrollManagementWeb.csproj|c:\\users\\dinesh\\source\\repos\\payrollmanagement\\payrollmanagementweb\\views\\attendance\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D35E372-C3AF-D9F1-EA5B-6772C1A66DF9}|PayrollManagementWeb\\PayrollManagementWeb.csproj|solutionrelative:payrollmanagementweb\\views\\attendance\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D35E372-C3AF-D9F1-EA5B-6772C1A66DF9}|PayrollManagementWeb\\PayrollManagementWeb.csproj|c:\\users\\dinesh\\source\\repos\\payrollmanagement\\payrollmanagementweb\\views\\attendance\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D35E372-C3AF-D9F1-EA5B-6772C1A66DF9}|PayrollManagementWeb\\PayrollManagementWeb.csproj|solutionrelative:payrollmanagementweb\\views\\attendance\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D35E372-C3AF-D9F1-EA5B-6772C1A66DF9}|PayrollManagementWeb\\PayrollManagementWeb.csproj|c:\\users\\dinesh\\source\\repos\\payrollmanagement\\payrollmanagementweb\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D35E372-C3AF-D9F1-EA5B-6772C1A66DF9}|PayrollManagementWeb\\PayrollManagementWeb.csproj|solutionrelative:payrollmanagementweb\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D35E372-C3AF-D9F1-EA5B-6772C1A66DF9}|PayrollManagementWeb\\PayrollManagementWeb.csproj|c:\\users\\dinesh\\source\\repos\\payrollmanagement\\payrollmanagementweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D35E372-C3AF-D9F1-EA5B-6772C1A66DF9}|PayrollManagementWeb\\PayrollManagementWeb.csproj|solutionrelative:payrollmanagementweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D35E372-C3AF-D9F1-EA5B-6772C1A66DF9}|PayrollManagementWeb\\PayrollManagementWeb.csproj|c:\\users\\dinesh\\source\\repos\\payrollmanagement\\payrollmanagementweb\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D35E372-C3AF-D9F1-EA5B-6772C1A66DF9}|PayrollManagementWeb\\PayrollManagementWeb.csproj|solutionrelative:payrollmanagementweb\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34AC38FD-5334-48DF-91FC-B81C15B36CEB}|Payroll.DataAccess\\Payroll.DataAccess.csproj|c:\\users\\dinesh\\source\\repos\\payrollmanagement\\payroll.dataaccess\\migrations\\20260220123923_addemployeeandattendancetodb.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34AC38FD-5334-48DF-91FC-B81C15B36CEB}|Payroll.DataAccess\\Payroll.DataAccess.csproj|solutionrelative:payroll.dataaccess\\migrations\\20260220123923_addemployeeandattendancetodb.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34AC38FD-5334-48DF-91FC-B81C15B36CEB}|Payroll.DataAccess\\Payroll.DataAccess.csproj|c:\\users\\dinesh\\source\\repos\\payrollmanagement\\payroll.dataaccess\\migrations\\20260220123923_addemployeeandattendancetodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34AC38FD-5334-48DF-91FC-B81C15B36CEB}|Payroll.DataAccess\\Payroll.DataAccess.csproj|solutionrelative:payroll.dataaccess\\migrations\\20260220123923_addemployeeandattendancetodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D35E372-C3AF-D9F1-EA5B-6772C1A66DF9}|PayrollManagementWeb\\PayrollManagementWeb.csproj|c:\\users\\dinesh\\source\\repos\\payrollmanagement\\payrollmanagementweb\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D35E372-C3AF-D9F1-EA5B-6772C1A66DF9}|PayrollManagementWeb\\PayrollManagementWeb.csproj|solutionrelative:payrollmanagementweb\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34AC38FD-5334-48DF-91FC-B81C15B36CEB}|Payroll.DataAccess\\Payroll.DataAccess.csproj|c:\\users\\dinesh\\source\\repos\\payrollmanagement\\payroll.dataaccess\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34AC38FD-5334-48DF-91FC-B81C15B36CEB}|Payroll.DataAccess\\Payroll.DataAccess.csproj|solutionrelative:payroll.dataaccess\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,54 +50,131 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\PayrollManagementWeb\\Areas\\Admin\\Views\\Attendance\\Create.cshtml",
-              "RelativeDocumentMoniker": "PayrollManagementWeb\\Areas\\Admin\\Views\\Attendance\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\PayrollManagementWeb\\Areas\\Admin\\Views\\Attendance\\Create.cshtml",
-              "RelativeToolTip": "PayrollManagementWeb\\Areas\\Admin\\Views\\Attendance\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\PayrollManagementWeb\\Views\\Attendance\\Index.cshtml",
+              "RelativeDocumentMoniker": "PayrollManagementWeb\\Views\\Attendance\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\PayrollManagementWeb\\Views\\Attendance\\Index.cshtml",
+              "RelativeToolTip": "PayrollManagementWeb\\Views\\Attendance\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-20T09:26:53.298Z",
+              "WhenOpened": "2026-02-26T07:03:05.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AttendanceController.cs",
-              "DocumentMoniker": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\PayrollManagementWeb\\Areas\\Admin\\Controllers\\AttendanceController.cs",
-              "RelativeDocumentMoniker": "PayrollManagementWeb\\Areas\\Admin\\Controllers\\AttendanceController.cs",
-              "ToolTip": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\PayrollManagementWeb\\Areas\\Admin\\Controllers\\AttendanceController.cs",
-              "RelativeToolTip": "PayrollManagementWeb\\Areas\\Admin\\Controllers\\AttendanceController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAUwCwAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T10:00:29.804Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1081,
-          "SelectedChildIndex": -1,
-          "Children": [
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\PayrollManagementWeb\\Views\\Attendance\\Create.cshtml",
+              "RelativeDocumentMoniker": "PayrollManagementWeb\\Views\\Attendance\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\PayrollManagementWeb\\Views\\Attendance\\Create.cshtml",
+              "RelativeToolTip": "PayrollManagementWeb\\Views\\Attendance\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T07:02:02.15Z",
+              "EditorCaption": ""
+            },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\Payroll.DataAccess\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Payroll.DataAccess\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\Payroll.DataAccess\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Payroll.DataAccess\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAywAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T06:57:05.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\PayrollManagementWeb\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "PayrollManagementWeb\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\PayrollManagementWeb\\Models\\Employee.cs",
+              "RelativeToolTip": "PayrollManagementWeb\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T06:56:20.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\PayrollManagementWeb\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "PayrollManagementWeb\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\PayrollManagementWeb\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "PayrollManagementWeb\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T06:53:43.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\PayrollManagementWeb\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PayrollManagementWeb\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\PayrollManagementWeb\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "PayrollManagementWeb\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T06:52:06.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20260220123923_AddEmployeeAndAttendanceToDb.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\Payroll.DataAccess\\Migrations\\20260220123923_AddEmployeeAndAttendanceToDb.Designer.cs",
+              "RelativeDocumentMoniker": "Payroll.DataAccess\\Migrations\\20260220123923_AddEmployeeAndAttendanceToDb.Designer.cs",
+              "ToolTip": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\Payroll.DataAccess\\Migrations\\20260220123923_AddEmployeeAndAttendanceToDb.Designer.cs",
+              "RelativeToolTip": "Payroll.DataAccess\\Migrations\\20260220123923_AddEmployeeAndAttendanceToDb.Designer.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAywBIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T06:52:02.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20260220123923_AddEmployeeAndAttendanceToDb.cs",
+              "DocumentMoniker": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\Payroll.DataAccess\\Migrations\\20260220123923_AddEmployeeAndAttendanceToDb.cs",
+              "RelativeDocumentMoniker": "Payroll.DataAccess\\Migrations\\20260220123923_AddEmployeeAndAttendanceToDb.cs",
+              "ToolTip": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\Payroll.DataAccess\\Migrations\\20260220123923_AddEmployeeAndAttendanceToDb.cs",
+              "RelativeToolTip": "Payroll.DataAccess\\Migrations\\20260220123923_AddEmployeeAndAttendanceToDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T06:51:39.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\PayrollManagementWeb\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "PayrollManagementWeb\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\PayrollManagementWeb\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "PayrollManagementWeb\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T06:18:11.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\Payroll.DataAccess\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "Payroll.DataAccess\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\Dinesh\\source\\repos\\PayrollManagement\\Payroll.DataAccess\\Repository\\Repository.cs",
+              "RelativeToolTip": "Payroll.DataAccess\\Repository\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T06:07:38.341Z"
             }
           ]
         }

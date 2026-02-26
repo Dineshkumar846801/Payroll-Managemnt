@@ -2327,7 +2327,6 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "10.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "10.0.3",
-          "Payroll.Models": "1.0.0",
           "Payroll.Utility": "1.0.0"
         },
         "compile": {
@@ -2335,16 +2334,6 @@
         },
         "runtime": {
           "bin/placeholder/Payroll.DataAccess.dll": {}
-        }
-      },
-      "Payroll.Models/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "compile": {
-          "bin/placeholder/Payroll.Models.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Payroll.Models.dll": {}
         }
       },
       "Payroll.Utility/1.0.0": {
@@ -6153,11 +6142,6 @@
       "type": "project",
       "path": "../Payroll.DataAccess/Payroll.DataAccess.csproj",
       "msbuildProject": "../Payroll.DataAccess/Payroll.DataAccess.csproj"
-    },
-    "Payroll.Models/1.0.0": {
-      "type": "project",
-      "path": "../Payroll.Models/Payroll.Models.csproj",
-      "msbuildProject": "../Payroll.Models/Payroll.Models.csproj"
     },
     "Payroll.Utility/1.0.0": {
       "type": "project",

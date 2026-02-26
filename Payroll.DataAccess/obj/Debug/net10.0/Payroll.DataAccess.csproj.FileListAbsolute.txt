@@ -17,3 +17,4 @@ C:\Users\Dinesh\source\repos\PayrollManagement\Payroll.DataAccess\obj\Debug\net1
 C:\Users\Dinesh\source\repos\PayrollManagement\Payroll.DataAccess\obj\Debug\net10.0\Payroll.DataAccess.pdb
 C:\Users\Dinesh\source\repos\PayrollManagement\Payroll.DataAccess\obj\Debug\net10.0\Payroll.DataAccess.genruntimeconfig.cache
 C:\Users\Dinesh\source\repos\PayrollManagement\Payroll.DataAccess\obj\Debug\net10.0\ref\Payroll.DataAccess.dll
+C:\Users\Dinesh\source\repos\PayrollManagement\Payroll.DataAccess\obj\Debug\net10.0\Payroll.DataAccess.sourcelink.json
