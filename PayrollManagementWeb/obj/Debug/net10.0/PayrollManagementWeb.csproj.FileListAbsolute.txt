@@ -343,3 +343,4 @@ C:\Users\Dinesh\source\repos\PayrollManagement\PayrollManagementWeb\bin\Debug\ne
 C:\Users\Dinesh\source\repos\PayrollManagement\PayrollManagementWeb\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\Dinesh\source\repos\PayrollManagement\PayrollManagementWeb\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\Dinesh\source\repos\PayrollManagement\PayrollManagementWeb\obj\Debug\net10.0\compressed\9s9jhwkfta-{0}-ph04nf0j4c-ph04nf0j4c.gz
+C:\Users\Dinesh\source\repos\PayrollManagement\PayrollManagementWeb\obj\Debug\net10.0\PayrollManagementWeb.sourcelink.json

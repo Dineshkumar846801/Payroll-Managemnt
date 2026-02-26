@@ -1,6 +1,5 @@
 <Solution>
   <Project Path="Payroll.DataAccess/Payroll.DataAccess.csproj" Id="34ac38fd-5334-48df-91fc-b81c15b36ceb" />
-  <Project Path="Payroll.Models/Payroll.Models.csproj" Id="c60837dd-b50f-4d00-9b66-76a1ce76b90c" />
   <Project Path="Payroll.Utility/Payroll.Utility.csproj" Id="d151638e-3242-413b-aacf-ee9abfd8cc18" />
   <Project Path="PayrollManagementWeb/PayrollManagementWeb.csproj" />
 </Solution>
