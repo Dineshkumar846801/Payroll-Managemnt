@@ -1,60 +1,73 @@
-﻿@model Payroll.Models.AttendanceVM
-<div class="container">
-    <form method="post">
+﻿@model List<AttendanceVM>
+
+<form method="post">
+    <div class="container">
         <div class="row mt-4 mb-3 ">
             <div class="col-md-6"><h4 class="text-primary">Fill Attendance</h4></div>
-            <div class="col-md-6 text-end">
-                <h4>
+            <div class="col-md-6 text-end"><h4 class="text-primary">@DateTime.Now.ToString("dd-MMM-yyyy")</h4></div>
 
-                    <label>@DateTime.Now.ToString("dd-MMM-yyyy")</label>
-
-                </h4>
-            </div>
             <hr class="mt-2" />
         </div>
-        <table class="table table-hover " style="width: 100%;">
-            <thead>
+    </div>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Status</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Count; i++)
+            {
+
+                <!-- Hidden EmployeeId -->
+                <input type="hidden" name="[@i].EmployeeId" value="@Model[i].EmployeeId" />
+
                 <tr>
-                    <th scope="col">Name</th>
-                    <th scope="col">Status</th>
-                    <th scope="col">Action</th>
+                    <td>
+                        <div>
+                            @Model[i].Name
+                            <input type="hidden" name="[@i].Name" value="@Model[i].Name" />
+                        </div>
+                    </td>
+
+                    <td>
+                        <div>
+                            <label>
+                                <input type="radio" name="[@i].Status" value="Present" /> Present
+                            </label>
+
+                            <label>
+                                <input type="radio" name="[@i].Status" value="Absent" checked /> Absent
+                            </label>
+                        </div>
+                    </td>
                 </tr>
-            </thead>
-            <tbody >
-                @foreach (var emp in Model.Employees)
-                {
-
-                    <tr>
-                        <td>@emp.Name @emp.EmployeeCode</td>
-                        <td id="attendanceStatus(@emp.EmployeeId)" asp-for=""></td>
-                        <td>
-                            <a class="btn btn-success" onclick="attendance(@emp.EmployeeId,'Present')"> Present</a>
-                            <a class="btn btn-danger" onclick="attendance(@emp.EmployeeId,'Absent')"> Absent</a>
-                        </td>
-                    </tr>
+            }
+        </tbody>
+    </table>
 
 
-                }
-            </tbody>
-        </table>
 
-        <div class="row mt-4">
-            <div class="col-md-12 text-center">
-                <button type="submit" class="btn btn-primary">Submit</button>
-                <a asp-controller="Employee" asp-action="Index" class="btn btn-outline-primary">Back To List</a>
-            </div>
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <button class="btn btn-primary" type="submit">Submit Attendance</button>
+
         </div>
-    </form>
-</div>
+    </div>
+</form>
+
 <script>
-    function attendance(empId, attMark){
-    let attendanceStatus = document.getElementById("attendanceStatus("+empId+")")
-        if(attMark == "Present"){
-            attendanceStatus.style.color = "#198754";
-            attendanceStatus.innerHTML= "Present";
-        }else{
-            attendanceStatus.style.color = "#dc3545";
+    function attendanceMark(status,empCode){
+    let attendanceStatus = document.getElementById(`attendanceStatus(${empCode})`)
+        if(status=="Present"){
+            attendanceStatus.innerHTML = "Present";
+            attendanceStatus.style.color= "#198754";
+        }else if(status == "Absent"){
             attendanceStatus.innerHTML= "Absent";
+            attendanceStatus.style.color= "#DC3545";
         }
     }
+
 </script>

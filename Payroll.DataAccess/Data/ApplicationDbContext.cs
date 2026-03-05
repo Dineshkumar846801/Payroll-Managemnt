@@ -22,9 +22,9 @@ namespace Payroll.DataAccess.Data
                 );
 
             modelBuilder.Entity<Attendance>().HasData(
-                new Attendance { AttendanceId = 1, Present = false, AttendanceDate = new DateOnly(), EmployeeId = 1 },
-                new Attendance { AttendanceId = 2, Present = true, AttendanceDate = new DateOnly(), EmployeeId = 3 },
-                new Attendance { AttendanceId = 3, Present = false, AttendanceDate = new DateOnly(), EmployeeId = 2 }
+                new Attendance { AttendanceId = 1, Status = "Present", AttendanceDate = new DateTime(), EmployeeId = 1, },
+                new Attendance { AttendanceId = 2, Status = "Present", AttendanceDate = new DateTime(), EmployeeId = 3 },
+                new Attendance { AttendanceId = 3, Status = "Present", AttendanceDate = new DateTime(), EmployeeId = 2 }
                     );
         }
     }

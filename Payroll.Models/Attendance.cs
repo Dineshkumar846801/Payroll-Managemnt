@@ -11,9 +11,9 @@ namespace Payroll.Models
         [Key]
         public int AttendanceId { get; set; }
 
-        public Boolean Present { get; set; }
+        public DateTime AttendanceDate { get; set; } = new DateTime();
 
-        public DateOnly AttendanceDate { get; set; } = new DateOnly();
+        public string Status { get; set; }
 
         public int EmployeeId { get; set; }
         [ForeignKey("EmployeeId")]

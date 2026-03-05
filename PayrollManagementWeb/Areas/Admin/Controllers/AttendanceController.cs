@@ -16,7 +16,7 @@ namespace PayrollManagementWeb.Areas.Admin.Controllers
         {
             _unitOfWork = unitOfWork;
         }
-        public IActionResult Index(DateOnly? date = null)
+        public IActionResult Index(DateTime? date = null)
         {
 
             List<Employee> objEmployeeList = _unitOfWork.Employee.GetAll().ToList();
@@ -37,17 +37,36 @@ namespace PayrollManagementWeb.Areas.Admin.Controllers
             List<Employee> objEmployeeList = _unitOfWork.Employee.GetAll().ToList();
             List<Attendance> objAttendancelist = _unitOfWork.Attendance.GetAll().ToList();
 
-            AttendanceVM attendance = new AttendanceVM()
+     
+
+            var model = objEmployeeList.Select(e => new AttendanceVM
             {
-                Employees = objEmployeeList,
-                Attendances = new List<Attendance>()
-            };
-            return View(attendance);
+                EmployeeId = e.EmployeeId,
+                Name = e.Name,
+                Status = "Absent"
+            }).ToList();
+
+            return View(model);
         }
+
+
         [HttpPost]
-        public IActionResult Create(AttendanceVM atten)
+        public IActionResult Create(List<AttendanceVM> model)
         {
-            return View();
+            DateTime today = DateTime.Today;
+
+            foreach (var item in model)
+            {
+                _unitOfWork.Attendance.Add(new Attendance
+                {
+                    EmployeeId = item.EmployeeId,
+                    AttendanceDate = today,
+                    Status = item.Status
+                });
+            }
+
+            _unitOfWork.Save();
+            return RedirectToAction("Index");
         }
     }
 }
